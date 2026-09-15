@@ -64,7 +64,7 @@ Resources:
   MyInstance:
     Type: AWS::EC2::Instance
     Properties:
-      InstanceType: t2.micro
+      InstanceType: t3.micro
       KeyName: !Ref KeyPairName
       ImageId: ami-0c02fb55956c7d316
       SubnetId: !Ref MySubnet
